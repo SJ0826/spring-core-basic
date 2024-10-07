@@ -14,8 +14,9 @@ import static org.springframework.context.annotation.ComponentScan.*;
                 Configuration.class))
 public class AutoAppConfig {
 
-    @Bean(name = "memoryMemberRepository")
-    MemoryMemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+    // 테스트 오류 : 컴포넌트 스캔으로 스프링 빈에 등록되어있는데 재등록시 충돌오류가 난다.
+//    @Bean(name = "memoryMemberRepository")
+//    MemoryMemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
