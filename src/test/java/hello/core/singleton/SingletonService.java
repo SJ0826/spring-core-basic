@@ -1,4 +1,4 @@
-package singleton;
+package hello.core.singleton;
 
 public class SingletonService {
     private static final SingletonService instance = new SingletonService(); // static 영역에 객체를 1개만 생성
