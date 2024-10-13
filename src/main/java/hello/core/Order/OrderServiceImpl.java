@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component // 스프링 빈으로 등록
+//@Component // 스프링 빈으로 등록
 //@RequiredArgsConstructor  // 객체에 final이 붙은 값으로 생성자를 자동으로 생성
 public class OrderServiceImpl implements OrderService {
 
